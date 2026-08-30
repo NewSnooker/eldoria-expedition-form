@@ -83,17 +83,21 @@ export const translations: Record<Language, Translations> = {
       formLink: "แบบฟอร์ม",
       hintButton: "คำใบ้ภารกิจ",
       hintTitle: "💡 แนวทางการค้นหา Bug สำหรับ Tester",
-      hintDesc: "ระบบนี้มีจุดบกพร่องที่ซ่อนอยู่ 2 จุด ให้นักศึกษาใช้ทักษะการเป็น Tester ในการค้นหา:",
+      hintDesc:
+        "ระบบนี้มีจุดบกพร่องที่ซ่อนอยู่ 2 จุด ให้นักศึกษาใช้ทักษะการเป็น Tester ในการค้นหา:",
       hint1Title: "แนวทางที่ 1 (การตรวจสอบรูปแบบข้อมูล):",
-      hint1Text: "ลองทดสอบป้อนข้อมูลที่ไม่ถูกต้องตามข้อกำหนด (Invalid Input / Negative Testing) ในช่องข้อมูลส่วนบุคคล เพื่อดูว่าระบบมีการดักจับและป้องกันข้อมูลที่ไม่ถูกต้องได้สมบูรณ์หรือไม่",
+      hint1Text:
+        "ลองทดสอบป้อนข้อมูลที่ไม่ถูกต้องตามข้อกำหนด (Invalid Input / Negative Testing) ในช่องข้อมูลส่วนบุคคล เพื่อดูว่าระบบมีการดักจับและป้องกันข้อมูลที่ไม่ถูกต้องได้สมบูรณ์หรือไม่",
       hint2Title: "แนวทางที่ 2 (การตรวจสอบช่องบังคับกรอก):",
-      hint2Text: "ลองตรวจสอบและเปรียบเทียบช่องที่ระบุว่าเป็นช่องบังคับ (Required Field) ในหน้าข้อกำหนด กับการทำงานจริงเมื่อกดส่งฟอร์มโดยไม่เลือกข้อมูล",
+      hint2Text:
+        "ลองตรวจสอบและเปรียบเทียบช่องที่ระบุว่าเป็นช่องบังคับ (Required Field) ในหน้าข้อกำหนด กับการทำงานจริงเมื่อกดส่งฟอร์มโดยไม่เลือกข้อมูล",
       closeHint: "ปิดหน้าต่าง",
     },
     form: {
       backToRequirements: "◀ กลับไปดูข้อกำหนดของแบบฟอร์ม",
       title: "ลงทะเบียนเข้าร่วมทีมสำรวจตามหาเมืองเอลดอเรีย",
-      subtitle: "กรุณากรอกข้อมูลส่วนตัว ประสบการณ์ และแนบเอกสารเพื่อส่งให้ทีมงานพิจารณา",
+      subtitle:
+        "กรุณากรอกข้อมูลส่วนตัว ประสบการณ์ และแนบเอกสารเพื่อส่งให้ทีมงานพิจารณา",
       fullNameLabel: "ชื่อ-นามสกุล",
       fullNamePlaceholder: "เช่น สมชาย มุ่งมั่น หรือ Peter Ford",
       emailLabel: "อีเมล",
@@ -143,27 +147,31 @@ export const translations: Record<Language, Translations> = {
       commentsPlaceholder: "ระบุข้อความเพิ่มเติม (ถ้ามี)...",
       termsLabel: "ฉันยอมรับ",
       termsInteractive: "ข้อตกลงและเงื่อนไขการเข้าร่วมโครงการ",
-      termsTooltip: "ข้อมูลและเอกสารที่ท่านส่งจะถูกนำไปใช้เพื่อการคัดเลือกผู้เข้าร่วมทีมสำรวจเอลดอเรียเท่านั้น และจะไม่ถูกเปิดเผยต่อสาธารณะ",
+      termsTooltip:
+        "ข้อมูลและเอกสารที่ท่านส่งจะถูกนำไปใช้เพื่อการคัดเลือกผู้เข้าร่วมทีมสำรวจเอลดอเรียเท่านั้น และจะไม่ถูกเปิดเผยต่อสาธารณะ",
       submitButton: "ส่งใบสมัครลงทะเบียน",
       submitting: "กำลังส่งข้อมูล...",
       clearButton: "ล้างข้อมูลในฟอร์ม",
       submitSuccessTitle: "ส่งข้อมูลสำเร็จ",
-      submitSuccessDesc: "ระบบได้รับข้อมูลเรียบร้อยแล้ว คุณสามารถทดสอบส่งซ้ำหรือกดล้างข้อมูลเพื่อเริ่มใหม่",
+      submitSuccessDesc:
+        "ระบบได้รับข้อมูลเรียบร้อยแล้ว คุณสามารถทดสอบส่งซ้ำหรือกดล้างข้อมูลเพื่อเริ่มใหม่",
       clearSuccessTitle: "ล้างข้อมูลในฟอร์มเรียบร้อยแล้ว",
       clearSuccessDesc: "ข้อมูลทุกช่องถูกรีเซ็ตกลับเป็นค่าเริ่มต้น",
     },
     requirements: {
       breadcrumb: "เอกสาร: ข้อกำหนดของแบบฟอร์ม (Form Requirements)",
       title: "ข้อกำหนดของแบบฟอร์มลงทะเบียน",
-      subtitle: "เกณฑ์การทำงานของแบบฟอร์มลงทะเบียนเข้าร่วมทีมสำรวจเมืองโบราณเอลดอเรีย",
+      subtitle:
+        "เกณฑ์การทำงานของแบบฟอร์มลงทะเบียนเข้าร่วมทีมสำรวจเมืองโบราณเอลดอเรีย",
       objectiveTitle: "🎯 วัตถุประสงค์ (Objective)",
-      objectiveDesc: "ให้นักศึกษาและผู้ทดสอบตรวจสอบแบบฟอร์มลงทะเบียนอย่างละเอียด ตรวจสอบความถูกต้องของแต่ละฟิลด์ตามเกณฑ์ที่กำหนด และค้นหาจุดผิดปกติหรือข้อบกพร่อง (Bugs) ในระบบ",
+      objectiveDesc:
+        "ให้นักศึกษาและผู้ทดสอบตรวจสอบแบบฟอร์มลงทะเบียนอย่างละเอียด ตรวจสอบความถูกต้องของแต่ละฟิลด์ตามเกณฑ์ที่กำหนด และค้นหาจุดผิดปกติหรือข้อบกพร่อง (Bugs) ในระบบ",
       generalTitle: "ข้อกำหนดทั่วไป (General Requirements)",
       generalRules: [
         "ทุกช่องที่จำเป็นต้องกรอก (Required fields) จะต้องมีเครื่องหมายดอกจันสีแดง (*) กำกับ",
         "แบบฟอร์มจะสามารถกดส่ง (Submit) สำเร็จได้ ก็ต่อเมื่อกรอกข้อมูลในช่องที่จำเป็นครบทุกช่องด้วยข้อมูลที่ถูกต้องตามเกณฑ์",
         "ในข้อความยอมรับข้อตกลง คำว่า 'ข้อตกลงและเงื่อนไข' จะต้องสามารถนำเมาส์ไปชี้ (Hover) เพื่อแสดง Tooltip อธิบายวัตถุประสงค์การใช้ข้อมูลได้",
-        "เมื่อกดปุ่มส่งใบสมัคร หากข้อมูลถูกต้องครบถ้วน จะต้องแสดงข้อความแจ้งเตือนความสำเร็จ และล้างข้อมูลในฟอร์มอัตโนมัติ หากมีข้อมูลผิดพลาด จะต้องแสดงข้อความ Error เตือนที่ช่องนั้นๆ",
+        "เมื่อกดปุ่มส่งใบสมัคร หากข้อมูลถูกต้องครบถ้วน จะต้องแสดงข้อความแจ้งเตือนความสำเร็จ หากมีข้อมูลผิดพลาด จะต้องแสดงข้อความ Error เตือนที่ช่องนั้นๆ",
         "เมื่อกดปุ่ม Clear Form ระบบจะต้องล้างข้อมูลทุกช่องในฟอร์มกลับเป็นค่าเริ่มต้น และแสดงข้อความแจ้งเตือนความสำเร็จหลังล้างข้อมูล",
       ],
       sectionsTitle: "ข้อกำหนดรายช่องข้อมูล (Form Sections)",
@@ -288,17 +296,21 @@ export const translations: Record<Language, Translations> = {
       formLink: "Task Form",
       hintButton: "Mission Hints",
       hintTitle: "💡 Testing Guidance for Bug Hunting",
-      hintDesc: "This system contains 2 hidden bugs. Use your QA testing skills to find them:",
+      hintDesc:
+        "This system contains 2 hidden bugs. Use your QA testing skills to find them:",
       hint1Title: "Guidance #1 (Input Data Validation):",
-      hint1Text: "Try testing with invalid input types (Negative Testing) in the personal details fields to see if the system properly catches and filters unauthorized characters.",
+      hint1Text:
+        "Try testing with invalid input types (Negative Testing) in the personal details fields to see if the system properly catches and filters unauthorized characters.",
       hint2Title: "Guidance #2 (Mandatory Field Checks):",
-      hint2Text: "Examine the fields marked as 'Required' in the specification and compare them against the form's actual behavior when submitted with missing selections.",
+      hint2Text:
+        "Examine the fields marked as 'Required' in the specification and compare them against the form's actual behavior when submitted with missing selections.",
       closeHint: "Close",
     },
     form: {
       backToRequirements: "◀ Back to the task description",
       title: "Register for the expedition in search of Eldoria",
-      subtitle: "Fill out the registration form according to the specified requirements.",
+      subtitle:
+        "Fill out the registration form according to the specified requirements.",
       fullNameLabel: "Full Name",
       fullNamePlaceholder: "e.g., Peter Ford",
       emailLabel: "Email",
@@ -306,7 +318,8 @@ export const translations: Record<Language, Translations> = {
       contactNumberLabel: "Contact Number",
       contactNumberPlaceholder: "e.g., +1234567890",
       dobLabel: "Date of Birth",
-      dobHint: "The user must be older than 18 and younger than 70 years as of the current date.",
+      dobHint:
+        "The user must be older than 18 and younger than 70 years as of the current date.",
       experienceLabel: "Archaeology Experience",
       experienceOptions: [
         "No experience",
@@ -348,7 +361,8 @@ export const translations: Record<Language, Translations> = {
       commentsPlaceholder: "Enter additional comments here...",
       termsLabel: "I Agree to",
       termsInteractive: "Terms and Conditions",
-      termsTooltip: "The user's submitted data will be used exclusively for candidate evaluation and expedition planning.",
+      termsTooltip:
+        "The user's submitted data will be used exclusively for candidate evaluation and expedition planning.",
       submitButton: "Submit Registration",
       submitting: "Submitting...",
       clearButton: "Clear Form",
@@ -360,9 +374,11 @@ export const translations: Record<Language, Translations> = {
     requirements: {
       breadcrumb: "Document: Requirements for Form",
       title: "Requirements for Registration Form",
-      subtitle: "Specification guidelines for the archaeological expedition participant registration form.",
+      subtitle:
+        "Specification guidelines for the archaeological expedition participant registration form.",
       objectiveTitle: "🎯 Objective",
-      objectiveDesc: "Your task is to thoroughly review the archaeological expedition participant registration form, validate each field according to the specified requirements, and identify all possible bugs.",
+      objectiveDesc:
+        "Your task is to thoroughly review the archaeological expedition participant registration form, validate each field according to the specified requirements, and identify all possible bugs.",
       generalTitle: "General Requirements",
       generalRules: [
         "All required fields must be marked with an asterisk (*).",
@@ -415,10 +431,7 @@ export const translations: Record<Language, Translations> = {
         {
           title: "5. Archaeology Experience",
           isRequired: true,
-          items: [
-            "Dropdown list.",
-            "'No experience' selected by default.",
-          ],
+          items: ["Dropdown list.", "'No experience' selected by default."],
         },
         {
           title: "6. Preferred Role in the Expedition",
