@@ -14,19 +14,19 @@ import { z } from "zod";
 export const expeditionFormSchema = z.object({
   fullName: z
     .string()
-    .min(1, { message: "กรุณากรอกชื่อ-นามสกุล / Please enter full name" }),
-    // .min(2, {
-    //   message:
-    //     "ชื่อ-นามสกุลต้องมีความยาวอย่างน้อย 2 ตัวอักษร / Name must be at least 2 characters",
-    // })
-    // .max(50, {
-    //   message:
-    //     "ชื่อ-นามสกุลต้องมีความยาวไม่เกิน 50 ตัวอักษร / Name must not exceed 50 characters",
-    // })
-    // .regex(/^[a-zA-Z\u0E00-\u0E7F\u0400-\u04FF\s\-']+$/, {
-    //   message:
-    //     "อนุญาตเฉพาะตัวอักษร, เว้นวรรค, ขีดกลาง (-) และ Apostrophe (') เท่านั้น",
-    // }),
+    .min(1, { message: "กรุณากรอกชื่อ-นามสกุล / Please enter full name" })
+    .min(2, {
+      message:
+        "ชื่อ-นามสกุลต้องมีความยาวอย่างน้อย 2 ตัวอักษร / Name must be at least 2 characters",
+    })
+    .max(50, {
+      message:
+        "ชื่อ-นามสกุลต้องมีความยาวไม่เกิน 50 ตัวอักษร / Name must not exceed 50 characters",
+    })
+    .regex(/^[a-zA-Z\u0E00-\u0E7F\u0400-\u04FF\s\-']+$/, {
+      message:
+        "อนุญาตเฉพาะตัวอักษร, เว้นวรรค, ขีดกลาง (-) และ Apostrophe (') เท่านั้น",
+    }),
   email: z
     .string()
     .min(1, { message: "กรุณากรอกอีเมล / Please enter email" })
