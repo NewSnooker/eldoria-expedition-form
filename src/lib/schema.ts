@@ -22,8 +22,8 @@ export const expeditionFormSchema = z.object({
     .max(50, {
       message:
         "ชื่อ-นามสกุลต้องมีความยาวไม่เกิน 50 ตัวอักษร / Name must not exceed 50 characters",
-    }),
-  // .regex(/^[a-zA-Z\u0E00-\u0E7F\u0400-\u04FF\s\-']+$/)
+    })
+    .regex(/^[a-zA-Z\u0E00-\u0E7F\u0400-\u04FF\s\-']+$/),
   email: z
     .string()
     .min(1, { message: "กรุณากรอกอีเมล / Please enter email" })
